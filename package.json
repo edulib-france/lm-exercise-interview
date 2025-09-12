@@ -60,7 +60,7 @@
     "@vitejs/plugin-react": "^4.3.4",
     "concurrently": "^9.1.2",
     "cypress": "^14.0.0",
-    "electron": "^36.0.0",
+    "electron": "^36.8.1",
     "electron-builder": "^26.0.12",
     "eslint": "^9.22.0",
     "eslint-plugin-react": "^7.32.2",
