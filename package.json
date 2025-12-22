@@ -16,7 +16,9 @@
     "transpile:electron": "tsc -p electron/tsconfig.json",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "test:e2e": "cypress open",
+    "test:e2e:run": "cypress run"
   },
   "dependencies": {
     "@capacitor/android": "7.4.3",
