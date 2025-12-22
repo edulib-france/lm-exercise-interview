@@ -32,6 +32,7 @@ import "@ionic/react/css/text-transformation.css";
 /* Theme variables */
 import type { ComponentType } from "react";
 import { Home } from "./page/Home";
+import { Profile } from "./page/Profile";
 import "./theme/variables.css";
 import { isElectron } from "./utils/platform";
 
@@ -45,11 +46,14 @@ export const App = () => {
     <IonApp>
       <Router>
         <IonRouterOutlet>
+          <Route exact path="/">
+            <Redirect to="/home" />
+          </Route>
           <Route exact path="/home">
             <Home />
           </Route>
-          <Route exact path="/">
-            <Redirect to="/home" />
+          <Route exact path="/profile">
+            <Profile />
           </Route>
         </IonRouterOutlet>
       </Router>
