@@ -18,6 +18,7 @@ import {
   IonBackButton,
 } from "@ionic/react";
 import { mail, call, location } from "ionicons/icons";
+import { PlatformInfo } from "../components/PlatformInfo";
 import "./Profile.scss";
 
 // Types
@@ -79,6 +80,9 @@ export const Profile = () => {
             </IonList>
           </IonCardContent>
         </IonCard>
+
+        {/* Platform Info Component */}
+        <PlatformInfo />
       </IonContent>
     </IonPage>
   );
