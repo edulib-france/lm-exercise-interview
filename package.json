@@ -15,7 +15,10 @@
     "build:electron": "rm -rf dist && npm run transpile:electron && npm run build:lm && electron-builder --mac",
     "transpile:electron": "tsc -p electron/tsconfig.json",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:e2e": "cypress open",
+    "test:e2e:run": "cypress run"
   },
   "dependencies": {
     "@capacitor/android": "7.4.3",
@@ -74,7 +77,7 @@
     "tsx": "^4.19.4",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.26.1",
-    "vite": "7.1.5",
+    "vite": "^6.0.0",
     "vitest": "3.2.4"
   }
 }

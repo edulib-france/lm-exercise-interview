@@ -1,0 +1,36 @@
+.platform-info {
+  max-width: 500px;
+  margin: 16px auto;
+}
+
+.platform-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.platform-icon {
+  font-size: 24px;
+}
+
+.platform-description {
+  color: var(--ion-color-medium);
+  margin-bottom: 16px;
+}
+
+.platform-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.platform-features {
+  margin-top: 8px;
+}
+
+.platform-loading {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
