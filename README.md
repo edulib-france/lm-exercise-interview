@@ -23,7 +23,7 @@ There is a `mise.toml` file to help install the correct tools and versions using
 ## Tasks
 
 ### 1. Create a New Page (15 minutes)
-Create a new page called that is navigatable from the home page.
+Create a new page that is navigatable from the home page.
 
 **Requirements:**
 - Create a new page component
